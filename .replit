@@ -1,0 +1,13 @@
+hidden = [".config"]
+run = "node ."
+
+[packager]
+language = "nodejs"
+
+[languages]
+
+[languages.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*.tsx}"
+
+[languages.javascript.languageServer]
+start = "typescript-language-server --stdio"
