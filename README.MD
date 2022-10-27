@@ -1,6 +1,6 @@
 <hr>
 <div align="center">
-    <h1>Bush</h1>
+    <h1>🌳 Bush</h1>
     <strong>A collection of games hosted locally or online</strong><br></br>
     <img alt="Stars" src="https://img.shields.io/github/stars/Barnac1ed/bush?color=BB9AF7&style=for-the-badge&logo=github&logoColor=ffffff">
     <img alt="Releases" src="https://img.shields.io/github/release/Barnac1ed/bush?color=9ece6a&style=for-the-badge&logo=gitbook&logoColor=ffffff">
