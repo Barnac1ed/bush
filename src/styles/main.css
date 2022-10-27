@@ -1,0 +1,93 @@
+@import url("./colors.css");
+
+html {
+  overflow: auto;
+}
+
+html,
+body,
+iframe {
+  margin: auto;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  display: block;
+}
+
+body {
+  background: var(--fg);
+  font-family: "Helvetica Neue", -apple-system, "system-ui", BlinkMacSystemFont,
+    "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+nav {
+  overflow: hidden;
+  background-color: var(--bg);
+  transition: margin-left 0.5s;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: var(--text);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.content {
+  padding: 16px;
+  transition: margin-left 0.5s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Sidebar */
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--comment);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--text);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: var(--text);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar a p {
+  font-size: 16px !important;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+  <div class="inner">
+    <div id="1" class="module">
+        <div class="title">
+            <h1>2048</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/2048/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/2048/')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> Dedra</p>
+        </div>
+    </div>
+<div id="2" class="module">
+        <div class="title">
+            <h1>Cat Cafe</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/Cat-Cafe/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/Cat-Cafe/')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> Angela He, Alex Rose, Atmospherium</p>
+        </div>
+    </div>
+<div id="3" class="module">
+        <div class="title">
+            <h1>Flappy Bird</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/Flappy-Bird/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/Flappy-Bird/')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> Dong Nguyen</p>
+        </div>
+    </div>
+<div id="4" class="module">
+        <div class="title">
+            <h1>OvO</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/OvO/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/OvO/')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> Dedra</p>
+        </div>
+    </div>
+<div id="5" class="module">
+        <div class="title">
+            <h1>Poda's Statue</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/Poda-Statue/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/Poda-Statue')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> Blibloop, Doot, Zakku</p>
+        </div>
+    </div>
+<div id="6" class="module">
+        <div class="title">
+            <h1>Subway Surfers</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/Subway-Surfers/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/Subway-Surfers/')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> KILOO & SYBO</p>
+        </div>
+    </div>
+<div id="7" class="module">
+        <div class="title">
+            <h1>Tenjutsu</h1>
+        </div>
+        <div class="banner">
+            <img src="./games/Tenjutsu/banner.png">
+        </div>
+        <div class="actions">
+            <a>
+              <button class="play-button" onclick="game('./games/Tenjutsu/')">PLAY</button>
+            </a>
+            <p><strong>Author(s):</strong> Sébastien Benard</p>
+        </div>
+    </div>
+  </div>
+
+  <script>
+  if (window.localStorage.getItem("light-theme") === "true") {
+    document.body.classList.toggle("light");
+  }
+  </script>
+  <script>
+  function game(path) {
+    location.href = path;
+    parent.document.getElementById("navbar").style.height = "0px";
+    parent.document.getElementById("navbar").classList.remove("sticky");
+    closeSidebar();
+  }
+  </script>
+  </body>
+</html>

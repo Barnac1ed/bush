@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/main.css" rel="stylesheet" />
+    <title>Games</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a><img id="sidebar-button" src="./assets/menu_white_24dp.svg" /></a>
+      <a href="./">Home</a>
+      <a href="javascript:void(0)" onclick="document.getElementsByClassName('main-frame')[0].src='./about.html';">About</a>
+      <a style="float:right;"><img id="switch-button" src="./assets/light_mode_white_24dp.svg"></a>
+    </nav>
+
+    <div id="sidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()"
+        >x</a
+      >
+      <a href="javascript:void(0)" onclick="game('./games/2048/')"><p>2048</p></a>
+<a href="javascript:void(0)" onclick="game('./games/Cat-Cafe/')"><p>Cat Cafe</p></a>
+<a href="javascript:void(0)" onclick="game('./games/Flappy-Bird/')"><p>Flappy Bird</p></a>
+<a href="javascript:void(0)" onclick="game('./games/OvO/')"><p>OvO</p></a>
+<a href="javascript:void(0)" onclick="game('./games/Poda-Statue')"><p>Poda's Statue</p></a>
+<a href="javascript:void(0)" onclick="game('./games/Subway-Surfers/')"><p>Subway Surfers</p></a>
+<a href="javascript:void(0)" onclick="game('./games/Tenjutsu/')"><p>Tenjutsu</p></a>
+    </div>
+
+    <table cellspacing="0" cellpadding="0" id="content">
+      <iframe class="main-frame" src="./games.html" frameborder="0"></iframe>
+    </table>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/switcher.js"></script>
+  </body>
+</html>

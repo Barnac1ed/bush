@@ -1,0 +1,55 @@
+@import url(./colors.css);
+
+.module {
+  border-radius: 25px;
+  border-radius: 25px;
+  border: 2px solid var(--outline);
+  padding: 5px;
+  background: var(--comment);
+  width: fit-content;
+  align-items: center;
+  margin: 10px auto;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--text);
+}
+
+body {
+  text-align: center;
+  font-family: "Helvetica Neue", -apple-system, "system-ui", BlinkMacSystemFont,
+    "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--fg);
+}
+
+.play-button {
+  margin: 4px !important;
+  padding: 0 12px !important;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px 4px 4px 4px;
+  background: transparent;
+}
+
+.play-button:hover {
+  color: var(--accent-hover);
+  border: 1px solid var(--accent-hover);
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.banner img {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+.title h1 {
+  color: var(--subtext) !important;
+}
+
+
+#1, #2, #3 {
+  margin-top: 49.6px;
+}

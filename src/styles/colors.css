@@ -1,0 +1,21 @@
+:root {
+  --bg: #222436;
+  --fg: #2f334d;
+  --comment: #3b4261;
+  --accent: #2ac3de;
+  --accent-hover: #89ddff;
+  --text: #e1e6fb;
+  --subtext: #c8d3f5;
+  --outline: #7a88cf;
+}
+
+.light {
+  --bg: #d4d6e4;
+  --fg: #e5e7ec;
+  --comment: #ccd0da;
+  --accent: #ea999c;
+  --accent-hover: #e78284;
+  --text: #222436;
+  --subtext: #3b4261;
+  --outline: #2f334d;
+}
