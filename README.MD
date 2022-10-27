@@ -18,7 +18,7 @@
 [<img src="./docs/replit.svg" alt="Deploy instance on Replit" height="36px" style="margin: 0px;">](https://replit.com/github/Barnac1ed/bush)
 
 ## 🙌 Contributing
-> If you want to suggest a game, open and [issue](https://github.com/Barnac1ed/bush/issues)
+> If you want to suggest a game, open an [issue](https://github.com/Barnac1ed/bush/issues)
 
 > If you want to add a game yourself, read the [contributing guide](https://github.com/Barnac1ed/bush/docs/CONTRIBUTING.md)
 
