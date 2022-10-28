@@ -1,0 +1,1 @@
+**MOVED TO THE [WIKI](https://github.com/Barnac1ed/bush/wiki)**
