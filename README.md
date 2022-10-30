@@ -26,7 +26,7 @@ To host **Bush**, click on one of the links below to setup the website on your p
 ## 🙌 Contributing
 > If you want to suggest a game, open an [issue](https://github.com/Barnac1ed/bush/issues)
 
-> If you want to add a game yourself, read the [contributing guide](https://github.com/Barnac1ed/bush/docs/CONTRIBUTING.md)
+> If you want to add a game yourself, read the [contributing guide](https://github.com/Barnac1ed/bush/blob/master/docs/CONTRIBUTING.md)
 
 ### [License](https://github.com/Barnac1ed/bush/blob/master/LICENSE) • [Contributors](https://github.com/Barnac1ed/bush/graphs/contributors)
 <hr>
